@@ -79,10 +79,4 @@ object Demo extends App {
     }
   }
 
-  actorSystem.actorOf(Props(new Actor() {
-    override def receive: Actor.Receive = ???
-  }))
-
-
-
 }
